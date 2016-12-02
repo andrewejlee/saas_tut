@@ -71,3 +71,10 @@ h1, h2, h3 {
   padding-bottom: 100px;
 }
 
+.btn-warning {
+  background-color: #ff9068;
+  &:hover, &:focus {
+    background-color: #ff9068;
+    opacity: 0.8;
+  }
+}
