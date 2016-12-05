@@ -5,10 +5,12 @@ class ContactsController < ApplicationController
   
   def create
     @contact = Contact.new(contact_params)
-    if @contact.save 
-      redirect_to new_contact_path, notice: "Message Sent."
-    else 
-      redirect_to new_contact_path, notice: "Error occured."
+    if @contact.save
+       flash[:success] = "Message sent."
+       redirect_to new_contact_path
+    else
+       flash[:error] = @contact.errors.full_messages.join(", ")
+       redirect_to new_contact_path
     end
   end
   

@@ -80,6 +80,10 @@ h1, h2, h3 {
   }
 }
 
+.btn-warning:active:hover, .btn-warning:active:focus, .btn-warning:active.focus, .btn-warning.active:hover, .btn-warning.active:focus, .btn-warning.active.focus, .open > .btn-warning.dropdown-toggle:hover, .open > .btn-warning.dropdown-toggle:focus, .open > .btn-warning.dropdown-toggle.focus{
+  background-color: #ff9068;
+}
+
 .well {
   margin-top: 20px;
 }
