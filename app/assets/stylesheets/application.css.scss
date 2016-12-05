@@ -74,7 +74,7 @@ h1, h2, h3 {
 .btn-warning {
   background-color: #ff9068;
   border-color: none;
-  &:hover, &:focus {
+  &:hover, &:focus, &:active {
     background-color: #ff9068;
     opacity: 0.8;
   }
