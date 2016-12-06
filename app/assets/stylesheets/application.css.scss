@@ -73,15 +73,26 @@ h1, h2, h3 {
 
 .btn-warning {
   background-color: #ff9068;
-  border-color: none;
-  &:hover, &:focus, &:active {
+  border-color: transparent;
+  &:hover, &:focus, &:active &:visited {
     background-color: #ff9068;
     opacity: 0.8;
   }
 }
 
-.btn-warning:active:hover, .btn-warning:active:focus, .btn-warning:active.focus, .btn-warning.active:hover, .btn-warning.active:focus, .btn-warning.active.focus, .open > .btn-warning.dropdown-toggle:hover, .open > .btn-warning.dropdown-toggle:focus, .open > .btn-warning.dropdown-toggle.focus{
+.btn-warning:active, .btn-warning.active, .open > .btn-warning.dropdown-toggle {
   background-color: #ff9068;
+  opacity: 0.8;
+}
+
+.btn-warning:active:hover, .btn-warning:active:focus, .btn-warning:active.focus, .btn-warning.active:hover, .btn-warning.active:focus, .btn-warning.active.focus, .open > .btn-warning.dropdown-toggle:hover, .open > .btn-warning.dropdown-toggle:focus, .open > .btn-warning.dropdown-toggle.focus {
+  background-color: #ff9068;
+  opacity: 0.8;
+}
+
+.btn-warning:active:hover, .btn-warning:active:focus, .btn-warning:active.focus, .btn-warning.active:hover, .btn-warning.active:focus, .btn-warning.active.focus, .open > .btn-warning.dropdown-toggle:hover, .open > .btn-warning.dropdown-toggle:focus, .open > .btn-warning.dropdown-toggle.focus {
+  background-color: #ff9068;
+  opacity: 0.8;
 }
 
 .well {
