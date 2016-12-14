@@ -80,6 +80,10 @@ h1, h2, h3 {
   }
 }
 
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+  margin: 6px;
+}
+
 /* Overrides bootstrap button colors */
 .btn-warning, .btn-warning:hover, .btn-warning:active, .btn-warning:visited {
     background-color: #ff9068 !important;
