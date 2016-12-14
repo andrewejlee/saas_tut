@@ -92,3 +92,13 @@ h1, h2, h3 {
 .well {
   margin-top: 20px;
 }
+
+hr.style14 { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #ffffff, #8c8b8b, #ffffff);
+  background-image: -moz-linear-gradient(left, #ffffff, #8c8b8b, #ffffff);
+  background-image: -ms-linear-gradient(left, #ffffff, #8c8b8b, #ffffff);
+  background-image: -o-linear-gradient(left, #ffffff, #8c8b8b, #ffffff); 
+}
+
