@@ -84,6 +84,10 @@ h1, h2, h3 {
   margin: 6px;
 }
 
+.alert-notice {
+  display: none;
+}
+
 /* Overrides bootstrap button colors */
 .btn-warning, .btn-warning:hover, .btn-warning:active, .btn-warning:visited {
     background-color: #ff9068 !important;
@@ -92,6 +96,8 @@ h1, h2, h3 {
 .well {
   margin-top: 20px;
 }
+
+// Experimenting with custom horizontal rules
 
 hr.style14 { 
   border: 0; 
@@ -102,6 +108,3 @@ hr.style14 {
   background-image: -o-linear-gradient(left, #ffffff, #8c8b8b, #ffffff); 
 }
 
-.alert-notice {
-  display: none;
-}
