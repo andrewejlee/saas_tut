@@ -116,9 +116,16 @@ hr.style14 {
 
 //Sign up styles
 
-
-
 h2.text-center {
   padding-top: 5px;
   padding-bottom: 25px;
+}
+
+//login link color
+a {
+  color: #ff9068;
+  &:hover, &:focus, &:active &:visited {
+    color: #ff9068;
+    opacity: 0.8;
+  }
 }
