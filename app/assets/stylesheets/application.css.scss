@@ -88,9 +88,14 @@ h1, h2, h3 {
   display: none;
 }
 
+.home-signup-links {
+  margin-top: 20px;
+}
+
 /* Overrides bootstrap button colors */
 .btn-warning, .btn-warning:hover, .btn-warning:active, .btn-warning:visited {
     background-color: #ff9068 !important;
+    padding: 15px;
 }
 
 .well {
