@@ -100,6 +100,7 @@ h1, h2, h3 {
 // Experimenting with custom horizontal rules
 
 hr.style14 { 
+  opacity: 0.5;
   border: 0; 
   height: 1px; 
   background-image: -webkit-linear-gradient(left, #ffffff, #8c8b8b, #ffffff);
