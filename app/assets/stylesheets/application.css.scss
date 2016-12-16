@@ -80,6 +80,42 @@ h1, h2, h3 {
   }
 }
 
+.btn-primary {
+  background-color: #404FB2;
+  border-color: transparent;
+  &:hover, &:focus, &:active &:visited {
+    background-color: #404FB2;
+    opacity: 0.8;
+  }
+}
+
+.btn-success {
+  background-color: #25B296;
+  border-color: transparent;
+  &:hover, &:focus, &:active &:visited {
+    background-color: #25B296;
+    opacity: 0.8;
+  }
+}
+
+
+/* Overrides default bootstrap button colors for hover,active etc */
+.btn-warning, .btn-warning:hover, .btn-warning:active, .btn-warning:visited {
+    background-color: #ff9068 !important;
+    padding: 15px;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #404FB2 !important;
+    padding: 15px;
+}
+
+.btn-success, .btn-success:hover, .btn-success:active, .btn-success:visited {
+    background-color: #25B296 !important;
+    padding: 15px;
+}
+
+
 .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
   margin: 6px;
 }
@@ -90,12 +126,6 @@ h1, h2, h3 {
 
 .home-signup-links {
   margin-top: 20px;
-}
-
-/* Overrides bootstrap button colors */
-.btn-warning, .btn-warning:hover, .btn-warning:active, .btn-warning:visited {
-    background-color: #ff9068 !important;
-    padding: 15px;
 }
 
 .well {
@@ -128,4 +158,17 @@ a {
     color: #ff9068;
     opacity: 0.8;
   }
+}
+
+//flash message styles
+
+.flash-container {
+  position: absolute;
+  width: 100%;
+}
+.alert-notice, .alert-alert {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+  margin-top: -14px;
 }
