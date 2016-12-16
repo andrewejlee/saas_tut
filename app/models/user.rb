@@ -4,7 +4,7 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
   
-  belongs_to :plandv
+  belongs_to :plan
   attr_accessor :stripe_card_token
   # If pro user passes validation (email, pw etc)
   # then call Stripe and tell Stripe to set up subscription
